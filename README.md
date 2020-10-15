@@ -1,3 +1,10 @@
+# nwm_acquisition code
+
+**purpose:**      Downloading and processing NWM output from either NCEP or google archives.  
+
+Currently, this code is set up to download streamflow and velocity data from NWM chrtout (channel route out) netCDFs, tho it could be adapted and utilized for other variables and files.  Due to the nature of stream networks, the dimenions in channel route out are linear and difficult to subset.  This code aims to simplify and automate the process.    
+
+
 **prerequisites:**   This bash code utilizes 
 1. netCDF operators `ncks`, `ncpdq` netCDF operators (Zender,  nco.sf.net) 
 2. `cdo`: Climate Dataset Operators (code.mpimet.mpg.de/projects/cdo) 
@@ -17,4 +24,6 @@ This other two scripts apply the same methods but acquire the analysis, short-ra
 
 ---
 **contact:** james.kessler@noaa.gov
-~                                                                                                         
+~                                                                                                                                                    
+~                                                                                                                                                    
+~                                           
